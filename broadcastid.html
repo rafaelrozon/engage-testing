@@ -6,6 +6,7 @@
   <meta charset="UTF-8" />
 
   <link rel="stylesheet" href="./styles.css">
+
   <script>
     var $bag = {
       network: "microsoft.com",
@@ -23,12 +24,12 @@
   <div class="embed-container">
     
     <div class="embed-box">
-      <h2>Legacy Embed with useNewYammer</h2>
+      <h2>Legacy Embed with broadcastId</h2>
       <script type="text/javascript" src="https://c64.assets-yammer.com/assets/platform_embed.js"></script>
       <div id="embedded-feed" style="height: 400px; width: 500px"></div>
       <script>
         yam.connect.embedFeed({
-          useNewYammer: false,
+          broadcastId: 'af0935aa-c79c-4637-84a5-00e4768c6c44',
           container: "#embedded-feed",
           network: $bag.network
         });

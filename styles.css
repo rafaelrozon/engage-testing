@@ -1,0 +1,13 @@
+.embed-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.embed-box {
+  display: block;
+  width: 500px;
+  min-height: 200px;
+  border: 1px solid red;
+  padding: 16px;
+  text-align: center;
+}
