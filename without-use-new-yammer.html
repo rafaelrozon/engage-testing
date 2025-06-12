@@ -41,6 +41,23 @@
     </li>
   </ul>
 
+  <div class="embed-container">
+    
+    <div class="embed-box">
+      <h2>Legacy Embed without useNewYammer</h2>
+      <script type="text/javascript" src="https://c64.assets-yammer.com/assets/platform_embed.js"></script>
+      <div id="embedded-feed-without-useNewYammer" style="height: 400px; width: 500px"></div>
+      <script>
+        yam.connect.embedFeed({
+          container: "#embedded-feed-without-useNewYammer",
+          network: $bag.network
+        });
+      </script>
+    </div>
+  </div>
+
+
+
 </body>
 
 </html>
